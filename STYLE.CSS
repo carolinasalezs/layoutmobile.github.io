@@ -1,0 +1,39 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:0;
+    margin:0;
+}
+
+header {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main{
+    background-color:beige;
+    padding: 20px;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+h2{
+    color: grey;
+}
+
+footer{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+@media (max-width: 600px){
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
